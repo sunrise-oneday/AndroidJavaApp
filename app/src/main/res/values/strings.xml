@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidJavaApplication</string>
+    <string name="setting_sign">个性签名</string>
+    <string name="setting_info">我的资料</string>
+    <string name="setting_notice">消息通知</string>
+    <string name="setting_help">辅助功能</string>
+    <string name="setting_arr">》</string>
+<!--    Relative_main-->
+    <string name="rel_prompt">RelativeLayoutDemo</string>
+    <string name="rel_hint">Please Type Here:</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_ok">确定</string>
+
+
+</resources>

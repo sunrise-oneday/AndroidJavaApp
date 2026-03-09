@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:background="@color/setting_back">
+
+    <!-- 第一行：显示屏 -->
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:background="@color/white"
+            android:gravity="end"
+            android:padding="20dp"
+            android:text="0"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <!-- 第二行：清除键 -->
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:text="清除"
+            android:background="@drawable/round_border"
+            android:layout_margin="2dp"/>
+    </TableRow>
+
+    <!-- 第三行：7 8 9 / -->
+    <TableRow>
+        <Button android:text="7" android:layout_margin="2dp"/>
+        <Button android:text="8" android:layout_margin="2dp"/>
+        <Button android:text="9" android:layout_margin="2dp"/>
+        <Button android:text="/" android:layout_margin="2dp"/>
+    </TableRow>
+
+    <!-- 第四行：4 5 6 * -->
+    <TableRow>
+        <Button android:text="4" android:layout_margin="2dp"/>
+        <Button android:text="5" android:layout_margin="2dp"/>
+        <Button android:text="6" android:layout_margin="2dp"/>
+        <Button android:text="*" android:layout_margin="2dp"/>
+    </TableRow>
+
+    <!-- 第五行：1 2 3 - -->
+    <TableRow>
+        <Button android:text="1" android:layout_margin="2dp"/>
+        <Button android:text="2" android:layout_margin="2dp"/>
+        <Button android:text="3" android:layout_margin="2dp"/>
+        <Button android:text="-" android:layout_margin="2dp"/>
+    </TableRow>
+
+    <!-- 第六行：0 = + -->
+    <TableRow>
+        <Button android:text="0" android:layout_margin="2dp"/>
+        <Button android:text="=" android:layout_margin="2dp"/>
+        <Button android:text="+" android:layout_margin="2dp"/>
+        <!-- 为了保持对齐，可以添加一个空视图或让某个按钮 span 两列，这里简化处理 -->
+        <Button android:text="." android:layout_margin="2dp"/>
+    </TableRow>
+
+</TableLayout>
